@@ -35,7 +35,14 @@ Our system works like a pipeline, with each step building on the previous one to
 
 ## Setup
 
-Make sure Python is installed on your system. You can download it from [here](https://www.python.org/downloads/). Once you have Python installed, you can install the required packages using the following command:
+Make sure Python is installed on your system. You can download it from [here](https://www.python.org/downloads/). Once you have Python installed then you clone this repository and navigate to the project directory. 
+
+```bash
+git clone https://github.com/FareedKhan-dev/ai-vision-dataset-builder.git
+cd ai-vision-dataset-builder
+```
+
+You can then install the required packages using the following command:
 
 ```bash
 pip install numpy pandas matplotlib opencv-python Pillow torch diffusers autodistill autodistill-grounding-dino openai autodistill-yolov8 roboflow
