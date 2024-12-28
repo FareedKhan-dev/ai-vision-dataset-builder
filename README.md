@@ -382,7 +382,7 @@ display_images(synthetic_data)
 
 We can improve our `base_prompt` to avoid such such images which are not related to our targeted object but If we are generating tons of images we cannot check if our images are correctly containing that object for example in our case it can easily generate a noisy image of bear for that we can manually check such noisy images because we are working with a sample data but we can also use a pre-trained vision models to perform the validation and recreate those images which contains such errors.
 
-We can use vision models provided by Hugging Face, OpenAI, or any other pre-trained vision model providers. We will use `Qwen/Qwen2-VL-7B-Instruct` an open-source vision model through an API from [Nebius.ai](https://nebius.com/) to validate the quality of the generated images.
+We can use vision models provided by Hugging Face, OpenAI, or any other pre-trained vision model providers. We will use `Qwen/Qwen2-VL-72B-Instruct` an open-source vision model through an API from [Nebius.ai](https://nebius.com/) to validate the quality of the generated images.
 
 The very first step is to create validation prompt which checks if the generated image contains the object we are looking for.
 
@@ -818,7 +818,7 @@ plt.show()
 
 ## Validating the Labeled Images
 
-Similar to validating the generated images, we can validate the labeled images using a pre-trained vision model. We will use the same vision model `Qwen/Qwen2-VL-7B-Instruct` to validate the labeled images. We will be checking if the bounding boxes are correctly placed around the objects we want to detect.
+Similar to validating the generated images, we can validate the labeled images using a pre-trained vision model. We will use the same vision model `Qwen/Qwen2-VL-72B-Instruct` to validate the labeled images. We will be checking if the bounding boxes are correctly placed around the objects we want to detect.
 
 The very first step is to create validation prompt to check if the generated image contains the object we are looking for.
 
