@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+opencv-python
+Pillow
+torch
+diffusers
+autodistill
+autodistill-grounding-dino
+openai
+autodistill-yolov8
+roboflow
