@@ -260,25 +260,6 @@ synthetic_data = pd.DataFrame({'Prompt': sample_prompts, 'Image': images})
 synthetic_data
 ```
 
-
-
-
-
-<div id="df-deed7bef-edde-485a-8d57-8a65b5106997" class="colab-df-container"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -468,19 +449,6 @@ synthetic_data
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -594,23 +562,7 @@ Let's print the dataframe to see if the images were recreated and validated corr
 synthetic_data
 ```
 
-
-
-
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
